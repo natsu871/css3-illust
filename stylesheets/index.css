@@ -1,0 +1,458 @@
+  [90mcompiled[0m stylesheets/index.css
+ding: 0px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+div,
+img,
+ul,
+ol,
+li,
+hr,
+a,
+dt,
+dd,
+p,
+span {
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+}
+img {
+  border: none;
+}
+li {
+  list-style: none;
+}
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: block;
+}
+form,
+fieldset,
+legend,
+label,
+select,
+input,
+option {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  display: inline-block;
+}
+.clearfixafter {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix {
+  display: inline-table;
+}
+* html .clearfix {
+  height: 1%;
+}
+.clearfix {
+  display: block;
+}
+body {
+  margin: 0px !important;
+  padding: 0px !important;
+  color: #333;
+  font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  line-height: 20px;
+  background-color: #fff;
+}
+#wrapper {
+  margin: 0px auto;
+  width: 960px;
+  background-color: #fff;
+  padding: 20px;
+}
+body {
+  background: #ffc8c8;
+}
+#wrapper {
+  margin: 20px;
+  width: 480px;
+  height: 600px;
+  background: rgba(255,255,255,0.3);
+}
+#mouse {
+  position: relative;
+  margin: 50px;
+/* ほっぺたの白いところ */
+/* 左目の白いところ */
+/* 右目の白いところ */
+/* 鼻の下の白いところ */
+/* 口の下のライン */
+/* いらないラインを隠すためのやつ */
+}
+#mouse #right_ear,
+#mouse #left_ear {
+  position: absolute;
+  top: 0px;
+  left: 122px;
+  width: 90px;
+  height: 90px;
+  border: 2px solid #000;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -o-border-radius: 50px;
+  -ms-border-radius: 50px;
+  border-radius: 50px;
+  background-color: #000;
+}
+#mouse #left_ear {
+  position: absolute;
+  top: 95px;
+  left: 25px;
+}
+#mouse #face_bass {
+  position: absolute;
+  top: 90px;
+  left: 110px;
+  width: 164px;
+  height: 164px;
+  border: 2px solid #000;
+  -webkit-border-radius: 90px;
+  -moz-border-radius: 90px;
+  -o-border-radius: 90px;
+  -ms-border-radius: 90px;
+  border-radius: 90px;
+  background-color: #000;
+}
+#mouse #face_white1 {
+  position: absolute;
+  top: 51px;
+  left: 18px;
+  width: 73px;
+  height: 130px;
+  border: 3px solid #000;
+  -webkit-border-radius: 100px 100px 50px 150px/140px 150px 50px 210px;
+  -moz-border-radius: 100px 100px 50px 150px/140px 150px 50px 210px;
+  -o-border-radius: 100px 100px 50px 150px/140px 150px 50px 210px;
+  -ms-border-radius: 100px 100px 50px 150px/140px 150px 50px 210px;
+  border-radius: 100px 100px 50px 150px/140px 150px 50px 210px;
+  background-color: #fff;
+  -webkit-transform: rotate(-38deg);
+  -moz-transform: rotate(-38deg);
+  -o-transform: rotate(-38deg);
+  -ms-transform: rotate(-38deg);
+  transform: rotate(-38deg);
+}
+#mouse #face_white2 {
+  position: absolute;
+  top: 4px;
+  left: 72px;
+  width: 66px;
+  height: 120px;
+  border: 2px solid #fff;
+  -webkit-border-radius: 50px 50px 50px 50px/100px 130px 25px 25px;
+  -moz-border-radius: 50px 50px 50px 50px/100px 130px 25px 25px;
+  -o-border-radius: 50px 50px 50px 50px/100px 130px 25px 25px;
+  -ms-border-radius: 50px 50px 50px 50px/100px 130px 25px 25px;
+  border-radius: 50px 50px 50px 50px/100px 130px 25px 25px;
+  background-color: #fff;
+  -webkit-transform: rotate(-26deg);
+  -moz-transform: rotate(-26deg);
+  -o-transform: rotate(-26deg);
+  -ms-transform: rotate(-26deg);
+  transform: rotate(-26deg);
+}
+#mouse #face_white3 {
+  position: absolute;
+  top: 16px;
+  left: 130px;
+  width: 20px;
+  height: 76px;
+  border: 2px solid #fff;
+  -webkit-border-radius: 50px 50px 50px 50px/200px 200px 120px 120px;
+  -moz-border-radius: 50px 50px 50px 50px/200px 200px 120px 120px;
+  -o-border-radius: 50px 50px 50px 50px/200px 200px 120px 120px;
+  -ms-border-radius: 50px 50px 50px 50px/200px 200px 120px 120px;
+  border-radius: 50px 50px 50px 50px/200px 200px 120px 120px;
+  background-color: #fff;
+  -webkit-transform: rotate(-22deg);
+  -moz-transform: rotate(-22deg);
+  -o-transform: rotate(-22deg);
+  -ms-transform: rotate(-22deg);
+  transform: rotate(-22deg);
+}
+#mouse #face_white4 {
+  position: absolute;
+  top: 74px;
+  left: 129px;
+  width: 56px;
+  height: 72px;
+  border: 3px solid #000;
+  -webkit-border-radius: 170px 135px 170px 150px/225px 190px 232px 200px;
+  -moz-border-radius: 170px 135px 170px 150px/225px 190px 232px 200px;
+  -o-border-radius: 170px 135px 170px 150px/225px 190px 232px 200px;
+  -ms-border-radius: 170px 135px 170px 150px/225px 190px 232px 200px;
+  border-radius: 170px 135px 170px 150px/225px 190px 232px 200px;
+  background-color: #fff;
+  -webkit-transform: rotate(38deg);
+  -moz-transform: rotate(38deg);
+  -o-transform: rotate(38deg);
+  -ms-transform: rotate(38deg);
+  transform: rotate(38deg);
+}
+#mouse #face_white5 {
+  position: absolute;
+  top: 94px;
+  left: 30px;
+  width: 105px;
+  height: 67px;
+  border: 3px solid #000;
+  -webkit-border-radius: 172px 0px 90px 100px/75px 0px 90px 50px;
+  -moz-border-radius: 172px 0px 90px 100px/75px 0px 90px 50px;
+  -o-border-radius: 172px 0px 90px 100px/75px 0px 90px 50px;
+  -ms-border-radius: 172px 0px 90px 100px/75px 0px 90px 50px;
+  border-radius: 172px 0px 90px 100px/75px 0px 90px 50px;
+  background-color: #fff;
+  -webkit-transform: rotate(54deg);
+  -moz-transform: rotate(54deg);
+  -o-transform: rotate(54deg);
+  -ms-transform: rotate(54deg);
+  transform: rotate(54deg);
+}
+#mouse #face_white6 {
+  position: absolute;
+  top: 82px;
+  left: 122px;
+  width: 48px;
+  height: 72px;
+  border: 3px solid #fff;
+  -webkit-border-radius: 175px 135px 160px 150px/220px 190px 230px 200px;
+  -moz-border-radius: 175px 135px 160px 150px/220px 190px 230px 200px;
+  -o-border-radius: 175px 135px 160px 150px/220px 190px 230px 200px;
+  -ms-border-radius: 175px 135px 160px 150px/220px 190px 230px 200px;
+  border-radius: 175px 135px 160px 150px/220px 190px 230px 200px;
+  background-color: #fff;
+  -webkit-transform: rotate(50deg);
+  -moz-transform: rotate(50deg);
+  -o-transform: rotate(50deg);
+  -ms-transform: rotate(50deg);
+  transform: rotate(50deg);
+}
+#mouse #face_white7 {
+  position: absolute;
+  top: 90px;
+  left: 36px;
+  width: 112px;
+  height: 67px;
+  border: 3px solid #fff;
+  -webkit-border-radius: 0px 172px 96px 172px/0px 75px 100px 120px;
+  -moz-border-radius: 0px 172px 96px 172px/0px 75px 100px 120px;
+  -o-border-radius: 0px 172px 96px 172px/0px 75px 100px 120px;
+  -ms-border-radius: 0px 172px 96px 172px/0px 75px 100px 120px;
+  border-radius: 0px 172px 96px 172px/0px 75px 100px 120px;
+  background-color: #fff;
+  -webkit-transform: rotate(7deg);
+  -moz-transform: rotate(7deg);
+  -o-transform: rotate(7deg);
+  -ms-transform: rotate(7deg);
+  transform: rotate(7deg);
+}
+#mouse #left_eye {
+  position: absolute;
+  top: 36px;
+  left: 109px;
+  width: 18px;
+  height: 58px;
+  border: 2px solid #000;
+  -webkit-border-radius: 50px 50px 50px 50px/140px 140px 140px 140px;
+  -moz-border-radius: 50px 50px 50px 50px/140px 140px 140px 140px;
+  -o-border-radius: 50px 50px 50px 50px/140px 140px 140px 140px;
+  -ms-border-radius: 50px 50px 50px 50px/140px 140px 140px 140px;
+  border-radius: 50px 50px 50px 50px/140px 140px 140px 140px;
+  background-color: #000;
+  -webkit-transform: rotate(-14deg);
+  -moz-transform: rotate(-14deg);
+  -o-transform: rotate(-14deg);
+  -ms-transform: rotate(-14deg);
+  transform: rotate(-14deg);
+}
+#mouse #right_eye {
+  position: absolute;
+  top: 42px;
+  left: 137px;
+  width: 14px;
+  height: 48px;
+  border: 2px solid #000;
+  -webkit-border-radius: 50px 50px 50px 50px/130px 130px 130px 130px;
+  -moz-border-radius: 50px 50px 50px 50px/130px 130px 130px 130px;
+  -o-border-radius: 50px 50px 50px 50px/130px 130px 130px 130px;
+  -ms-border-radius: 50px 50px 50px 50px/130px 130px 130px 130px;
+  border-radius: 50px 50px 50px 50px/130px 130px 130px 130px;
+  background-color: #000;
+  -webkit-transform: rotate(-14deg);
+  -moz-transform: rotate(-14deg);
+  -o-transform: rotate(-14deg);
+  -ms-transform: rotate(-14deg);
+  transform: rotate(-14deg);
+}
+#mouse #nose {
+  position: absolute;
+  top: 148px;
+  left: 291px;
+  width: 24px;
+  height: 40px;
+  border: 2px solid #000;
+  -webkit-border-radius: 65px 75px 80px 55px/90px 130px 80px 100px;
+  -moz-border-radius: 65px 75px 80px 55px/90px 130px 80px 100px;
+  -o-border-radius: 65px 75px 80px 55px/90px 130px 80px 100px;
+  -ms-border-radius: 65px 75px 80px 55px/90px 130px 80px 100px;
+  border-radius: 65px 75px 80px 55px/90px 130px 80px 100px;
+  background-color: #000;
+  -webkit-transform: rotate(22deg);
+  -moz-transform: rotate(22deg);
+  -o-transform: rotate(22deg);
+  -ms-transform: rotate(22deg);
+  transform: rotate(22deg);
+}
+#mouse #mouth_top_line {
+  position: absolute;
+  top: 2px;
+  left: 156px;
+  width: 184px;
+  height: 242px;
+  border-bottom: 4px solid #000;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -o-border-radius: 100px;
+  -ms-border-radius: 100px;
+  border-radius: 100px;
+  clip: rect(205px auto auto auto);
+  -webkit-transform: rotate(20deg);
+  -moz-transform: rotate(20deg);
+  -o-transform: rotate(20deg);
+  -ms-transform: rotate(20deg);
+  transform: rotate(20deg);
+}
+#mouse #mouth_end {
+  position: absolute;
+  top: 173px;
+  left: 162px;
+  width: 30px;
+  height: 260px;
+  border-bottom: 4px solid #000;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -o-border-radius: 100px;
+  -ms-border-radius: 100px;
+  border-radius: 100px;
+  clip: rect(205px auto auto auto);
+  -webkit-transform: rotate(168deg);
+  -moz-transform: rotate(168deg);
+  -o-transform: rotate(168deg);
+  -ms-transform: rotate(168deg);
+  transform: rotate(168deg);
+}
+#mouse #mouth_bass {
+  position: absolute;
+  top: 187px;
+  left: 150px;
+  width: 93px;
+  height: 57px;
+  border: 2px solid #000;
+  -webkit-border-radius: 172px 24px 90px 100px/75px 24px 90px 50px;
+  -moz-border-radius: 172px 24px 90px 100px/75px 24px 90px 50px;
+  -o-border-radius: 172px 24px 90px 100px/75px 24px 90px 50px;
+  -ms-border-radius: 172px 24px 90px 100px/75px 24px 90px 50px;
+  border-radius: 172px 24px 90px 100px/75px 24px 90px 50px;
+  background-color: #000;
+  -webkit-transform: rotate(58deg);
+  -moz-transform: rotate(58deg);
+  -o-transform: rotate(58deg);
+  -ms-transform: rotate(58deg);
+  transform: rotate(58deg);
+}
+#mouse #mouth_bass_covered {
+  position: absolute;
+  top: 192px;
+  left: 147px;
+  width: 118px;
+  height: 40px;
+  border: 2px solid #fff;
+  -webkit-border-radius: 100px 30px 200px 185px/60px 30px 120px 90px;
+  -moz-border-radius: 100px 30px 200px 185px/60px 30px 120px 90px;
+  -o-border-radius: 100px 30px 200px 185px/60px 30px 120px 90px;
+  -ms-border-radius: 100px 30px 200px 185px/60px 30px 120px 90px;
+  border-radius: 100px 30px 200px 185px/60px 30px 120px 90px;
+  background-color: #fff;
+  -webkit-transform: rotate(30deg);
+  -moz-transform: rotate(30deg);
+  -o-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+#mouse #mouth_tongue_left {
+  position: absolute;
+  top: 225px;
+  left: 185px;
+  width: 19px;
+  height: 36px;
+  border: 2px solid #000;
+  -webkit-border-radius: 0px 80px 5px 80px/0px 130px 5px 130px;
+  -moz-border-radius: 0px 80px 5px 80px/0px 130px 5px 130px;
+  -o-border-radius: 0px 80px 5px 80px/0px 130px 5px 130px;
+  -ms-border-radius: 0px 80px 5px 80px/0px 130px 5px 130px;
+  border-radius: 0px 80px 5px 80px/0px 130px 5px 130px;
+  background-color: #f55;
+  -webkit-transform: rotate(-36deg);
+  -moz-transform: rotate(-36deg);
+  -o-transform: rotate(-36deg);
+  -ms-transform: rotate(-36deg);
+  transform: rotate(-36deg);
+}
+#mouse #mouth_tongue_right {
+  position: absolute;
+  top: 241px;
+  left: 214px;
+  width: 9px;
+  height: 13px;
+  border: 2px solid #f55;
+  -webkit-border-radius: 0px 100px 5px 100px/0px 130px 5px 130px;
+  -moz-border-radius: 0px 100px 5px 100px/0px 130px 5px 130px;
+  -o-border-radius: 0px 100px 5px 100px/0px 130px 5px 130px;
+  -ms-border-radius: 0px 100px 5px 100px/0px 130px 5px 130px;
+  border-radius: 0px 100px 5px 100px/0px 130px 5px 130px;
+  background-color: #f55;
+  -webkit-transform: rotate(-35deg);
+  -moz-transform: rotate(-35deg);
+  -o-transform: rotate(-35deg);
+  -ms-transform: rotate(-35deg);
+  transform: rotate(-35deg);
+}
+#mouse #mouth_tongue_adjuster {
+  position: absolute;
+  top: 243px;
+  left: 212px;
+  width: 9px;
+  height: 15px;
+  border: 1px solid #f55;
+  -webkit-border-radius: 0px 90px 5px 100px/0px 130px 5px 130px;
+  -moz-border-radius: 0px 90px 5px 100px/0px 130px 5px 130px;
+  -o-border-radius: 0px 90px 5px 100px/0px 130px 5px 130px;
+  -ms-border-radius: 0px 90px 5px 100px/0px 130px 5px 130px;
+  border-radius: 0px 90px 5px 100px/0px 130px 5px 130px;
+  background-color: #f55;
+  -webkit-transform: rotate(-74deg);
+  -moz-transform: rotate(-74deg);
+  -o-transform: rotate(-74deg);
+  -ms-transform: rotate(-74deg);
+  transform: rotate(-74deg);
+}

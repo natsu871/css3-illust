@@ -1,0 +1,177 @@
+@charset "UTF-8"
+
+@import 'mixin'
+@import 'common'
+
+body
+  background rgb(255, 200, 200)
+
+#wrapper
+  margin 20px
+  width 480px
+  height 600px
+  background rgba(255, 255, 255, 0.3)
+
+#mouse
+  position relative
+  margin 50px  
+
+  #right_ear
+    from-top-left(0px, 122px)
+    size(90px, 90px)
+    border 2px solid #000
+    border-radius(50px)
+    background-color #000
+
+  #left_ear
+    @extends #mouse #right_ear
+    from-top-left(95px, 25px)
+
+  #face_bass
+    from-top-left(90px, 110px)
+    size(164px, 164px)
+    border 2px solid #000
+    border-radius(90px)
+    background-color #000
+
+  /* ほっぺたの白いところ */
+  #face_white1
+    from-top-left(51px, 18px)
+    size(73px, 130px)
+    border 3px solid #000
+    border-radius(100px 100px 50px 150px \/ 140px 150px 50px 210px)
+    background-color #fff
+    transform rotate(-38deg)
+
+  /* 左目の白いところ */
+  #face_white2
+    from-top-left(4px, 72px)
+    size(66px, 120px)
+    border 2px solid #fff
+    border-radius(50px 50px 50px 50px \/ 100px 130px 25px 25px)
+    background-color #fff
+    transform rotate(-26deg)
+
+  /* 右目の白いところ */
+  #face_white3
+    from-top-left(16px, 130px)
+    size(20px, 76px)
+    border 2px solid #fff
+    border-radius(50px 50px 50px 50px \/ 200px 200px 120px 120px)
+    background-color #fff
+    transform rotate(-22deg)
+
+  /* 鼻の下の白いところ */
+  #face_white4
+    from-top-left(74px, 129px)
+    size(56px, 72px)
+    border 3px solid #000
+    border-radius(170px 135px 170px 150px \/ 225px 190px 232px 200px)
+    background-color #fff
+    transform rotate(38deg)
+
+  /* 口の下のライン */
+  #face_white5
+    from-top-left(94px, 30px)
+    size(105px, 67px)
+    border 3px solid #000
+    border-radius(172px 0px 90px 100px \/ 75px 0px 90px 50px)
+    background-color #fff
+    transform rotate(54deg)
+
+  /* いらないラインを隠すためのやつ */
+  #face_white6
+    from-top-left(82px, 122px)
+    size(48px, 72px)
+    border 3px solid #fff
+    border-radius(175px 135px 160px 150px \/ 220px 190px 230px 200px)
+    background-color #fff
+    transform rotate(50deg)
+
+  #face_white7
+    from-top-left(90px, 36px)
+    size(112px, 67px)
+    border 3px solid #fff
+    border-radius(0px 172px 96px 172px \/ 0px 75px 100px 120px)
+    background-color #fff
+    transform rotate(7deg)
+
+  #left_eye
+    from-top-left(36px, 109px)
+    size(18px, 58px)
+    border 2px solid #000
+    border-radius(50px 50px 50px 50px \/ 140px 140px 140px 140px)
+    background-color #000
+    transform rotate(-14deg)
+
+  #right_eye
+    from-top-left(42px, 137px)
+    size(14px, 48px)
+    border 2px solid #000
+    border-radius(50px 50px 50px 50px \/ 130px 130px 130px 130px)
+    background-color #000
+    transform rotate(-14deg)
+
+  #nose
+    from-top-left(148px, 291px)
+    size(24px, 40px)
+    border 2px solid #000
+    border-radius(65px 75px 80px 55px \/ 90px 130px 80px 100px)
+    background-color #000
+    transform rotate(22deg)
+
+  #mouth_top_line
+    from-top-left(2px, 156px)
+    size(184px, 242px)
+    border-bottom 4px solid #000
+    border-radius(100px)
+    clip rect(205px auto auto auto)
+    transform rotate(20deg)
+
+  #mouth_end
+    from-top-left(173px, 162px)
+    size(30px, 260px)
+    border-bottom 4px solid #000
+    border-radius(100px)
+    clip rect(205px auto auto auto)
+    transform rotate(168deg)
+
+  #mouth_bass
+    from-top-left(187px, 150px)
+    size(93px, 57px)
+    border 2px solid #000
+    border-radius(172px 24px 90px 100px \/ 75px 24px 90px 50px)
+    background-color #000
+    transform rotate(58deg)
+
+  #mouth_bass_covered
+    from-top-left(192px, 147px)
+    size(118px, 40px)
+    border 2px solid #fff
+    border-radius(100px 30px 200px 185px \/ 60px 30px 120px 90px)
+    background-color #fff
+    transform rotate(30deg)
+
+  #mouth_tongue_left
+    from-top-left(225px, 185px)
+    size(19px, 36px)
+    border 2px solid #000
+    border-radius(0px 80px 5px 80px \/ 0px 130px 5px 130px)
+    background-color #f55
+    transform rotate(-36deg)
+
+  #mouth_tongue_right
+    from-top-left(241px, 214px)
+    size(9px, 13px)
+    border 2px solid #f55
+    border-radius(0px 100px 5px 100px \/ 0px 130px 5px 130px)
+    background-color #f55
+    transform rotate(-35deg)
+
+  #mouth_tongue_adjuster
+    from-top-left(243px, 212px)
+    size(9px, 15px)
+    border 1px solid #f55
+    border-radius(0px 90px 5px 100px \/ 0px 130px 5px 130px)
+    background-color #f55
+    transform rotate(-74deg)
